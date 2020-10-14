@@ -21,7 +21,9 @@ Controller: ATMega328P
 
 ### Idea 3: Digital Lockbox
 Sensor: DS1307/1038 serial real-time clock (RTC), LM335 Precision Temperature Sensors 
+
 Actuator: LCD (16x2)
+
 Controller: ATMega328P
 
 This project is aimed to design an automated system of digital clock and temperature thermometer, which 
@@ -36,11 +38,13 @@ track of time when power source outage, which assists our purpose of the project
 
 Expanding on idea: 
 1. Small automatic misting system (low pressures).
+
 Sensor: Temperature Sensors 
 Actuator: LCD (16x2), pump & mist line system
 Controller: ATMega328P
 
 2. Elevator control system
+
 Sensor: Button 
 Actuator: 7-seg display, motors to move cabin
 Controller: ATMega328P
