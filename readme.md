@@ -40,12 +40,16 @@ Expanding on idea:
 1. Small automatic misting system (low pressures).
 
 Sensor: Temperature Sensors 
+
 Actuator: LCD (16x2), pump & mist line system
+
 Controller: ATMega328P
 
 2. Elevator control system
 
 Sensor: Button 
+
 Actuator: 7-seg display, motors to move cabin
+
 Controller: ATMega328P
 
