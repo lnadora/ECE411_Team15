@@ -20,4 +20,28 @@ Controller: ATMega328P
 ### Idea 2: Sprinkler Controller
 
 ### Idea 3: Digital Lockbox
+Sensor: DS1307/1038 serial real-time clock (RTC), LM335 Precision Temperature Sensors 
+Actuator: LCD (16x2)
+Controller: ATMega328P
+
+This project is aimed to design an automated system of digital clock and temperature thermometer, which 
+assists people’s need on a daily basis to keep track of time. The problem with a regular digital clock 
+is that we have to set the time manually every time the battery runs out or electric outages and also 
+have to look elsewhere/other devices to know the exact time to set to. Therefore, this clock will come 
+in advantage of helping us set the real time automatically with more accuracy. The basic concept of how
+this clock works is that it takes in measurements from LM335 and time information stored in DS1307, 
+processes in ATMMega32 microcontroller and then displays these values via LCD 16x2 screen. The DS1307 
+is chosen because it has a built-in feature that can automatically switch to backup supply to keep 
+track of time when power source outage, which assists our purpose of the project. 
+
+Expanding on idea: 
+1. Small automatic misting system (low pressures).
+Sensor: Temperature Sensors 
+Actuator: LCD (16x2), pump & mist line system
+Controller: ATMega328P
+
+2. Elevator control system
+Sensor: Button 
+Actuator: 7-seg display, motors to move cabin
+Controller: ATMega328P
 
