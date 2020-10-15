@@ -19,7 +19,7 @@ Controller: ATMega328P
 
 ### Idea 2: Sprinkler Controller
 
-### Idea 3: Digital clock
+### Idea 3: Digital Clock
 Sensor: DS1307/1038 serial real-time clock (RTC), LM335 Precision Temperature Sensors 
 
 Actuator: LCD (16x2)
